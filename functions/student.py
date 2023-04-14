@@ -19,14 +19,13 @@ def year_of_birth(name, age):
 year_of_birth("sonia", 10)
 year_of_birth(name ="sonia", age=10)
 
+def colors(*names):
+        rainbow_colors = ','.join(names)
+        print(rainbow_colors)
 
-def concatenate_kwargs(**kwargs):
-    languages = ""
-    for key, value in kwargs.items():
-        languages += (f"{key}:{value}")
-    print(languages)
 
-concatenate_kwargs(one="hdgdg", two="ghdhd")
+
+colors("hdgdg","ghdhd")
 
 
 
