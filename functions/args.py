@@ -25,6 +25,8 @@ def multiply(*numbers):
         answer *= number
     return answer
 
+multiply(2,3,4,1,3)
+
 
 
 # write a function that accpets any numbers of keyword arguments
@@ -42,10 +44,6 @@ def student_attributes(**kwargs):
 
 def my_country(country = "Burundi"):
     print(f"hello from {country}")
-
-
-
-
 
 
 
@@ -79,4 +77,7 @@ def concatenate_kwargs(**kwargs):
 
 
 
-# Next topic \\\\\\\     Control Flow         \\\\\\ #
+
+
+
+

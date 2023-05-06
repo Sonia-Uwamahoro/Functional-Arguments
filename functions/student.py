@@ -15,18 +15,6 @@ def year_of_birth(name, age):
 # keyword arguments are passed to the function by explicity specifying the name of the argument.  
                              
 # positional arguments (each argument must be in the same position as you defined them when calling)
- 
-year_of_birth("sonia", 10)
-year_of_birth(name ="sonia", age=10)
-
-def colors(*names):
-        rainbow_colors = ','.join(names)
-        print(rainbow_colors)
-
-
-
-colors("hdgdg","ghdhd")
-
 
 
 
